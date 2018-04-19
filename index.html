@@ -11,6 +11,7 @@
 
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
+		
 
 		<!-- Printing and PDF exports -->
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.bundle.min.js" integrity="sha384-lZmvU/TzxoIQIOD9yQDEpvxp6wEU32Fy0ckUgOH4EIlMOCdR823rg4+3gWRwnX1M" crossorigin="anonymous">
@@ -22,6 +23,12 @@
 			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
 			document.getElementsByTagName( 'head' )[0].appendChild( link );
 		</script>
+		<style>
+			.firstslide{
+				background-color: #cccccc;
+			}
+		</style>
+		
 	</head>
 	<body>
 		<div class="reveal">
@@ -34,7 +41,7 @@
 					</div>
 				</section>
 				<section >
-					<div style="background-color:lightblue;">
+					<div class="firstslide">
 						<h3>
 						I've learnt so many things in this class. Some of the new things I learnt in this class are:
 						</h3>
