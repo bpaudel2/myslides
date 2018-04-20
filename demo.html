@@ -134,27 +134,30 @@
 					
 				</section>
 				
-				<section data-markdown data-background="#dddddd">
+				<section data-background="#dddddd">
 					<h4>We can do data binding in angular various ways.</h4>
 					<h5>One way is to use ng-bind. For example:<</h5>
 					<br>
-							
-					"<p ng-bind="firstname"></p>"
-							
+					<pre>		
+					<p ng-bind="firstname"></p>"
+					</pre>
+					<br>
 					<h5>This will bind innerHTML of the element to the specified model property.</h5>
 					<h5>Another way is to use double braces {{}}. For example:</h5>
-					"<p>First name: {{firstname}}</p>"
+					<pre>
+					<p>First name: {{firstname}}</p>
+					</pre>
 					<h5>This will display content from the model.</h5>
 					
 				</section>
 				<section data-markdown>
-					<h4>Two way Binding</h4>
-							The ng-model directive also provides a two-way binding between the model and the view.
-							I personlly find two way binding in Angular very cool. For example:<br>	
-								<input ng-model="firstname">
-    <								h1>{{firstname}}</h1>
-			
-					
+					<h5>Two way Binding</h5>
+					<h5>The ng-model directive also provides a two-way binding between the model and the view.
+						I personlly find two way binding in Angular very cool. For example:</h5><br>	
+					<pre>
+					<input ng-model="firstname">
+    <					h1>{{firstname}}</h1>
+					</pre>		
 				</section>
 				
 				
