@@ -134,14 +134,14 @@
 					
 				</section>
 				
-				<section data-background="#dddddd">
+				<section data-markdown data-background="#dddddd">
 					<h4>We can do data binding in angular various ways.</h4>
 					<ul>
 						<li>
 							One way is to use ng-bind. For example:<br>
-							<code>
+							
 								<p ng-bind="firstname"></p>
-							</code>
+							
 							This will bind innerHTML of the element to the specified model property.
 						</li>
 						<li>
@@ -152,23 +152,15 @@
 							This will display content from the model.
 								
 						</li>
-						<li>
-							We can also use the ng-model directive. For example:
-							<code>
-							<input ng-model="firstname">
-							</code>
+					</ul>
+				</section>
+				<section data-markdown>
+					<h4>Two way Binding</h4>
 							The ng-model directive also provides a two-way binding between the model and the view.
-							Which I think is very cool. Here is the example of it.
-							<code>
+							I personlly find two way binding in Angular very cool. For example:<br>	
 								<input ng-model="firstname">
     <								h1>{{firstname}}</h1>
-							</code>
-
-							
-						</li>
-							
-							
-					
+			
 					
 				</section>
 				
